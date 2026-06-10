@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⛅ Weather Board</h1>
+            <p class="subtitle">Get weather info for any city</p>
+        </header>
+
+        <div class="search-section">
+            <input 
+                type="text" 
+                id="cityInput" 
+                class="search-input" 
+                placeholder="Enter city name..."
+                autocomplete="off"
+            >
+            <button id="searchBtn" class="search-btn">Search</button>
+        </div>
+
+        <div id="weatherContainer" class="weather-container">
+            <div class="weather-card">
+                <div class="city-name">Select a city</div>
+                <div class="temperature">--°C</div>
+                <div class="weather-description">Weather data will appear here</div>
+                <div class="weather-details">
+                    <div class="detail">
+                        <span class="label">Humidity</span>
+                        <span class="value">--%</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Wind Speed</span>
+                        <span class="value">-- m/s</span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Pressure</span>
+                        <span class="value">-- hPa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sample-cities">
+            <h3>Quick Access</h3>
+            <div class="city-buttons">
+                <button class="city-btn" data-city="London">London</button>
+                <button class="city-btn" data-city="New York">New York</button>
+                <button class="city-btn" data-city="Tokyo">Tokyo</button>
+                <button class="city-btn" data-city="Dubai">Dubai</button>
+                <button class="city-btn" data-city="Paris">Paris</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Weather Board | Built with HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

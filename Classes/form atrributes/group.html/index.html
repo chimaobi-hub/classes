@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group element</title>
+</head>
+<body style="background-color: lightblue;" >
+    
+      <h1>group element</h1>
+      <p>
+        the 'fieldset' element is used to group related elements within a form,making it easier for user to understand the structure of the form around
+     </p>
+     <h2>example</h2>
+     <form action="/submit"method="post"></form>
+     <fieldset>
+        <legend>personal information</legend>
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="age">age:</label>
+
+
+     </fieldset>
+     
+     <button type="submit">submit</button>
+
+     <h2>optgroup</h2>
+     <p>it is used to create a dropdown within the "select" dropdown</p>
+     <h3>example</h3>
+     <form action="/submit"method="post">
+        <label for="food">choose food:</label>
+        <select id="food" name="food" required>
+            <optgroup label="fruits">
+              <option value="apple">apple</option>
+              <option value="banana">banana</option>
+              <option value="mango">mango</option>
+              <option value="orange">orange</option>
+              <option value="watermelon">watermelon</option>
+            </optgroup>
+            <optgroup label="vegetables">
+                  <option value="carrot">carrot</option>
+                <option value="lettuce">lettuce</option>
+                <option value="spinach">spinach</option>
+                <option value="brocoli">brocoli</option>
+                <option value="cucumber">cucumber</option>
+            </optgroup>
+        </select>
+        <input type="submit"value="submit">
+            
+     
+</body>
+</html>

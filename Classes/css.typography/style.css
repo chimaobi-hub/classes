@@ -1,0 +1,20 @@
+    body {
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        padding: 30px;
+    }
+
+    p {
+        background-color: purple;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: gold;
+        padding: 40px;
+
+    }
+    h1 {
+        background-color: rgb(0, 26, 255);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(225, 161, 65);
+        padding: 20px;
+    }
