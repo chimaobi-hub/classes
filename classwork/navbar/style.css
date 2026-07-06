@@ -1,0 +1,53 @@
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-direction: row;
+     align-items:flex-start ;
+     text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 10px 20px;
+    color:white;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    font-size: 30px;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.navbar-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar-links li {
+    position: relative;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px;
+    display: block;
+}
+
+.btn {
+    background-color:white;
+    color:blue;
+    border: none;
+    padding: 10px 20px;
+}
